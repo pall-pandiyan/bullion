@@ -1,672 +1,1433 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js no-svg">
-<head>
-	<meta charset="UTF-8">
-	    		<link rel="shortcut icon" href="wp-content/themes/bullion/assets/images/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="wp-content/themes/bullion/assets/images/favicon.ico" type="image/x-icon">
-	    	<!-- responsive meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- For IE -->
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="wp-content/themes/bullion/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="wp-content/themes/bullion/assets/images/favicon.ico" type="image/x-icon">
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Standards a/c &#8211; Bullion</title>
-<meta name='robots' content='max-image-preview:large' />
-<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
-<link rel="alternate" type="application/rss+xml" title="Bullion &raquo; Feed" href="feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Bullion &raquo; Comments Feed" href="comments/feed/index.html" />
-<script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
-/*! This file is auto-generated */
-!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
-</script>
-<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 0.07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<style id='wp-block-library-theme-inline-css' type='text/css'>
-.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
-</style>
-<link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<style id='global-styles-inline-css' type='text/css'>
-body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--strong-yellow: #f7bd00;--wp--preset--color--strong-white: #fff;--wp--preset--color--light-black: #242424;--wp--preset--color--very-light-gray: #797979;--wp--preset--color--very-dark-black: #000000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('standards_ac.html');--wp--preset--duotone--grayscale: url('standards_ac.html');--wp--preset--duotone--purple-yellow: url('standards_ac.html');--wp--preset--duotone--blue-red: url('standards_ac.html');--wp--preset--duotone--midnight: url('standards_ac.html');--wp--preset--duotone--magenta-yellow: url('standards_ac.html');--wp--preset--duotone--purple-green: url('standards_ac.html');--wp--preset--duotone--blue-orange: url('standards_ac.html');--wp--preset--font-size--small: 10px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 15px;--wp--preset--font-size--huge: 36px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}
-.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
-</style>
-<link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver=5.7.6.css' type='text/css' media='all' />
-<link rel='stylesheet' id='bullion-font-awesome-all-css' href='wp-content/themes/bullion/assets/css/font-awesome-all.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='flaticon-css' href='wp-content/themes/bullion/assets/css/flaticon.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-css' href='wp-content/themes/bullion/assets/css/owl.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/bullion/assets/css/bootstrap.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-fancybox-css' href='wp-content/themes/bullion/assets/css/jquery.fancybox.min.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='animate-css' href='wp-content/themes/bullion/assets/css/animate.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='nice-select-css' href='wp-content/themes/bullion/assets/css/nice-select.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-ui-css' href='wp-content/themes/bullion/assets/css/jquery-ui.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='bullion-main-css' href='wp-content/themes/bullion/style.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='bullion-main-style-css' href='wp-content/themes/bullion/assets/css/style.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='bullion-custom-css' href='wp-content/themes/bullion/assets/css/custom.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='bullion-responsive-css' href='wp-content/themes/bullion/assets/css/responsive.css%3Fver=6.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='bullion-theme-fonts-css' href='wp-includes/css/google-fonts.css' type='text/css' media='all' />
-<script type='text/javascript' id='jquery-core-js-extra'>
-/* <![CDATA[ */
-var bullion_data = {"ajaxurl":"https:\/\/jan.coderdemo.com\/newwp\/bullion\/wp-admin\/admin-ajax.php","nonce":"e01e60acba"};
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+    <link rel="alternate" type="application/rss+xml" title="Bullion &raquo; Feed" href="feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Bullion &raquo; Comments Feed"
+      href="comments/feed/index.html" />
+    <script type="text/javascript">
+      window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2" } };
+      /*! This file is auto-generated */
+      !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !s("\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff") }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css'
+      href='wp-includes/css/dist/block-library/style.min.css%3Fver=6.2.2.css' type='text/css' media='all' />
+    <style id='wp-block-library-theme-inline-css' type='text/css'>
+      .wp-block-audio figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-audio figcaption {
+        color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-audio {
+        margin: 0 0 1em
+      }
+
+      .wp-block-code {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: Menlo, Consolas, monaco, monospace;
+        padding: .8em 1em
+      }
+
+      .wp-block-embed figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-embed figcaption {
+        color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-embed {
+        margin: 0 0 1em
+      }
+
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .blocks-gallery-caption {
+        color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-image figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-image figcaption {
+        color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-image {
+        margin: 0 0 1em
+      }
+
+      .wp-block-pullquote {
+        border-bottom: 4px solid;
+        border-top: 4px solid;
+        color: currentColor;
+        margin-bottom: 1.75em
+      }
+
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer,
+      .wp-block-pullquote__citation {
+        color: currentColor;
+        font-size: .8125em;
+        font-style: normal;
+        text-transform: uppercase
+      }
+
+      .wp-block-quote {
+        border-left: .25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em
+      }
+
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: .8125em;
+        font-style: normal;
+        position: relative
+      }
+
+      .wp-block-quote.has-text-align-right {
+        border-left: none;
+        border-right: .25em solid;
+        padding-left: 0;
+        padding-right: 1em
+      }
+
+      .wp-block-quote.has-text-align-center {
+        border: none;
+        padding-left: 0
+      }
+
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote.is-style-plain {
+        border: none
+      }
+
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700
+      }
+
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: .375em .625em
+      }
+
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em
+      }
+
+      .wp-block-separator.has-css-opacity {
+        opacity: .4
+      }
+
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto
+      }
+
+      .wp-block-separator.has-alpha-channel-opacity {
+        opacity: 1
+      }
+
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px
+      }
+
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px
+      }
+
+      .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+        height: 2px
+      }
+
+      .wp-block-table {
+        margin: 0 0 1em
+      }
+
+      .wp-block-table td,
+      .wp-block-table th {
+        word-break: normal
+      }
+
+      .wp-block-table figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-table figcaption {
+        color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-video figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-video figcaption {
+        color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-video {
+        margin: 0 0 1em
+      }
+
+      .wp-block-template-part.has-background {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 1.25em 2.375em
+      }
+    </style>
+    <link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css%3Fver=6.2.2.css'
+      type='text/css' media='all' />
+    <style id='global-styles-inline-css' type='text/css'>
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--color--strong-yellow: #f7bd00;
+        --wp--preset--color--strong-white: #fff;
+        --wp--preset--color--light-black: #242424;
+        --wp--preset--color--very-light-gray: #797979;
+        --wp--preset--color--very-dark-black: #000000;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+        --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+        --wp--preset--duotone--dark-grayscale: url('standards_ac.html');
+        --wp--preset--duotone--grayscale: url('standards_ac.html');
+        --wp--preset--duotone--purple-yellow: url('standards_ac.html');
+        --wp--preset--duotone--blue-red: url('standards_ac.html');
+        --wp--preset--duotone--midnight: url('standards_ac.html');
+        --wp--preset--duotone--magenta-yellow: url('standards_ac.html');
+        --wp--preset--duotone--purple-green: url('standards_ac.html');
+        --wp--preset--duotone--blue-orange: url('standards_ac.html');
+        --wp--preset--font-size--small: 10px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 24px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--font-size--normal: 15px;
+        --wp--preset--font-size--huge: 36px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+
+      body .is-layout-flow>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      body .is-layout-flow>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      body .is-layout-flow>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body .is-layout-constrained>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      body .is-layout-constrained>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      body .is-layout-constrained>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body .is-layout-constrained>.alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+
+      body .is-layout-flex {
+        display: flex;
+      }
+
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      body .is-layout-flex>* {
+        margin: 0;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+      }
+
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+      }
+
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+      }
+
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+      }
+
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+      }
+
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css'
+      href='wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver=5.7.6.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bullion-font-awesome-all-css'
+      href='wp-content/themes/bullion/assets/css/font-awesome-all.css%3Fver=6.2.2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flaticon-css' href='wp-content/themes/bullion/assets/css/flaticon.css%3Fver=6.2.2.css'
+      type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-css' href='wp-content/themes/bullion/assets/css/owl.css%3Fver=6.2.2.css'
+      type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/bullion/assets/css/bootstrap.css%3Fver=6.2.2.css'
+      type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery-fancybox-css'
+      href='wp-content/themes/bullion/assets/css/jquery.fancybox.min.css%3Fver=6.2.2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='wp-content/themes/bullion/assets/css/animate.css%3Fver=6.2.2.css'
+      type='text/css' media='all' />
+    <link rel='stylesheet' id='nice-select-css'
+      href='wp-content/themes/bullion/assets/css/nice-select.css%3Fver=6.2.2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery-ui-css' href='wp-content/themes/bullion/assets/css/jquery-ui.css%3Fver=6.2.2.css'
+      type='text/css' media='all' />
+    <link rel='stylesheet' id='bullion-main-css' href='wp-content/themes/bullion/style.css%3Fver=6.2.2.css'
+      type='text/css' media='all' />
+    <link rel='stylesheet' id='bullion-main-style-css'
+      href='wp-content/themes/bullion/assets/css/style.css%3Fver=6.2.2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bullion-custom-css'
+      href='wp-content/themes/bullion/assets/css/custom.css%3Fver=6.2.2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bullion-responsive-css'
+      href='wp-content/themes/bullion/assets/css/responsive.css%3Fver=6.2.2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bullion-theme-fonts-css' href='wp-includes/css/google-fonts.css' type='text/css'
+      media='all' />
+    <script type='text/javascript' id='jquery-core-js-extra'>
+      /* <![CDATA[ */
+      var bullion_data = { "ajaxurl": "https:\/\/jan.coderdemo.com\/newwp\/bullion\/wp-admin\/admin-ajax.php", "nonce": "e01e60acba" };
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js%3Fver=3.6.4' id='jquery-core-js'></script>
-<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.4.0' id='jquery-migrate-js'></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 6.2.2" />
-<link rel="canonical" href="standards_ac.html" />
-<link rel='shortlink' href='standards_ac.html' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fjan.coderdemo.com%252Fnewwp%252Fbullion%252Ftradings%252Fstandards-a-c%252F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fjan.coderdemo.com%252Fnewwp%252Fbullion%252Ftradings%252Fstandards-a-c%252F&amp;format=xml" />
-<meta name="generator" content="Elementor 3.13.2; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-</head>
+    </script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js%3Fver=3.6.4' id='jquery-core-js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.4.0'
+      id='jquery-migrate-js'></script>
+    <link rel="https://api.w.org/" href="wp-json/index.html" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 6.2.2" />
+    <link rel="canonical" href="standards_ac.html" />
+    <link rel='shortlink' href='standards_ac.html' />
+    <link rel="alternate" type="application/json+oembed"
+      href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fjan.coderdemo.com%252Fnewwp%252Fbullion%252Ftradings%252Fstandards-a-c%252F" />
+    <link rel="alternate" type="text/xml+oembed"
+      href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fjan.coderdemo.com%252Fnewwp%252Fbullion%252Ftradings%252Fstandards-a-c%252F&amp;format=xml" />
+    <meta name="generator"
+      content="Elementor 3.13.2; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+  </head>
 
 
-<body class="tradings-template-default single single-tradings postid-973 menu-layer elementor-default elementor-kit-10"> 
+  <body
+    class="tradings-template-default single single-tradings postid-973 menu-layer elementor-default elementor-kit-10">
 
-    
 
-<div class="boxed_wrapper">
-	    <!-- preloader -->
-    <div class="loader-wrap">
+
+    <div class="boxed_wrapper">
+      <!-- preloader -->
+      <div class="loader-wrap">
         <div class="preloader">
-            <div class="preloader-close">x</div>
-            <div id="handle-preloader" class="handle-preloader">
-                <div class="animation-preloader">
-                    <div class="spinner"></div>
-                    <div class="txt-loading">
-                        <span data-text-preloader="b" class="letters-loading">
-b
-</span>
-<span data-text-preloader="u" class="letters-loading">
-u
-</span>
-<span data-text-preloader="l" class="letters-loading">
-l
-</span>
-<span data-text-preloader="l" class="letters-loading">
-l
-</span>
-<span data-text-preloader="i" class="letters-loading">
-i
-</span>
-<span data-text-preloader="o" class="letters-loading">
-o
-</span>
-<span data-text-preloader="n" class="letters-loading">
-n
-</span>                    </div>
-                </div>  
+          <div class="preloader-close">x</div>
+          <div id="handle-preloader" class="handle-preloader">
+            <div class="animation-preloader">
+              <div class="spinner"></div>
+              <div class="txt-loading">
+                <span data-text-preloader="b" class="letters-loading">
+                  b
+                </span>
+                <span data-text-preloader="u" class="letters-loading">
+                  u
+                </span>
+                <span data-text-preloader="l" class="letters-loading">
+                  l
+                </span>
+                <span data-text-preloader="l" class="letters-loading">
+                  l
+                </span>
+                <span data-text-preloader="i" class="letters-loading">
+                  i
+                </span>
+                <span data-text-preloader="o" class="letters-loading">
+                  o
+                </span>
+                <span data-text-preloader="n" class="letters-loading">
+                  n
+                </span>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- preloader end -->
-		    <!--Search Popup-->
-    <div id="search-popup" class="search-popup">
+      </div>
+      <!-- preloader end -->
+      <!--Search Popup-->
+      <div id="search-popup" class="search-popup">
         <div class="popup-inner">
-            <div class="upper-box clearfix">
-                <figure class="logo-box pull-left"><a href="index.html" title="Bullion"><img src="wp-content/uploads/2023/03/logo.png" alt="logo"  /></a></figure>
-                <div class="close-search pull-right"><i class="fa-solid fa-xmark"></i></div>
-            </div>
-            <div class="overlay-layer"></div>
-            <div class="auto-container">
-                
-<div class="search-form">
+          <div class="upper-box clearfix">
+            <figure class="logo-box pull-left"><a href="index.html" title="Bullion"><img
+                  src="wp-content/uploads/2023/03/logo.png" alt="logo" /></a></figure>
+            <div class="close-search pull-right"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+          <div class="overlay-layer"></div>
+          <div class="auto-container">
 
-    <form method="post" action="index.html">
+            <div class="search-form">
 
-        <div class="form-group">
+              <form method="post" action="index.html">
 
-            <fieldset>
+                <div class="form-group">
 
-                <input type="search" class="form-control" name="s" value="" placeholder="Type your keyword and hit" required >
+                  <fieldset>
 
-                <button type="submit"><i class="flaticon-loupe"></i></button>
+                    <input type="search" class="form-control" name="s" value="" placeholder="Type your keyword and hit"
+                      required>
 
-            </fieldset>
+                    <button type="submit"><i class="flaticon-loupe"></i></button>
 
-        </div>
+                  </fieldset>
 
-    </form>
-
-</div>
-
-                
-            </div>
-        </div>
-    </div>
-	
-    <!-- main header -->
-    <header class="main-header">
-                <!-- header-top -->
-        <div class="header-top">
-            <div class="outer-container">
-                                <div class="support-box">
-                    <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-1.png" alt="Awesome Image"></div>
-                    <p><a href="tel:+1222567890">+1-222-56-78-90</a> or Request for a <a href="tel:+1222567890"><span>call back</span></a></p>
                 </div>
-                                                <div class="text">
-                    <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-2.png" alt="Awesome Image"></div>
-                    <p>£20 Discount &amp; Get 24/7 Free Assistance</p>
-                </div>
-                                <div class="right-column">
-                                        <div class="guide-box">
-                        <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-3.png" alt="Awesome Image"></div>
-                        <p><a href="platform.html">Free Trading Guides</a></p>
-                    </div>
-                                                            <div class="help-center">
-                        <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-4.png" alt="Awesome Image"></div>
-                        <p><a href="contact.html">Help Center</a></p>
-                    </div>
-                                    </div>
+
+              </form>
+
             </div>
+
+
+          </div>
         </div>
-                <!-- header-lower -->
+      </div>
+
+      <!-- main header -->
+      <header class="main-header">
+
         <div class="header-lower">
-            <div class="outer-container">
-                <div class="outer-box">
-                    <div class="menu-area">
-                        <div class="logo-box">
-                            <figure class="logo"><a href="index.html" title="Bullion"><img src="wp-content/uploads/2023/03/logo.png" alt="logo"  /></a></figure>
-                        </div>
-                        <!--Mobile Navigation Toggler-->
-                        <div class="mobile-nav-toggler">
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                        </div>
-                        <nav class="main-menu navbar-expand-md navbar-light">
-                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
-                                    <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-60 dropdown"><a title="Home" href="index.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Home</a>
-<ul role="menu" class="main-dropdown">
-	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-63"><a title="Home One" href="index.html">Home One</a></li>
-	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a title="Home Two" href="home_two.html">Home Two</a></li>
-	<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a title="Home Three" href="home_three.html">Home Three</a></li>
-</ul>
-</li>
-<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64 dropdown"><a title="Markets" href="markets.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Markets</a>
-<ul role="menu" class="main-dropdown">
-	<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a title="Markets" href="markets.html">Markets</a></li>
-	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a title="Details Page" href="markets_details_page.html">Details Page</a></li>
-</ul>
-</li>
-<li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-67 dropdown"><a title="Trading" href="standards_ac.html#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Trading</a>
-<ul role="menu" class="main-dropdown">
-	<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a title="Platform" href="platform.html">Platform</a></li>
-	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a title="Our Accounts" href="our_accounts.html">Our Accounts</a></li>
-	<li id="menu-item-860" class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-860"><a title="Standard Account" href="standard_ac.html">Standard Account</a></li>
-	<li id="menu-item-859" class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-859"><a title="Commission Account" href="commission_ac.html">Commission Account</a></li>
-	<li id="menu-item-858" class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-858"><a title="STP Pro Account" href="stp_pro_ac.html">STP Pro Account</a></li>
-</ul>
-</li>
-<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70 dropdown"><a title="Education" href="education.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Education</a>
-<ul role="menu" class="main-dropdown">
-	<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a title="Education" href="education.html">Education</a></li>
-	<li id="menu-item-1105" class="menu-item menu-item-type-post_type menu-item-object-education menu-item-1105"><a title="Detail Page" href="what_is_forex_trading.html">Detail Page</a></li>
-</ul>
-</li>
-<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72 dropdown"><a title="About" href="company.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">About</a>
-<ul role="menu" class="main-dropdown">
-	<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a title="Company" href="company.html">Company</a></li>
-	<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a title="History" href="history.html">History</a></li>
-	<li id="menu-item-914" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-914 dropdown"><a title="Team" href="standards_ac.html#">Team</a>
-	<ul role="menu" class="main-dropdown">
-		<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a title="Team" href="team.html">Team</a></li>
-		<li id="menu-item-1078" class="menu-item menu-item-type-post_type menu-item-object-team menu-item-1078"><a title="Team Details" href="joy_root.html">Team Details</a></li>
-	</ul>
-</li>
-	<li id="menu-item-78" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-78 dropdown"><a title="Blog" href="standards_ac.html#">Blog</a>
-	<ul role="menu" class="main-dropdown">
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a title="3 Columns" href="3-columns/page/1/index.html">3 Columns</a></li>
-		<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a title="3 Columns Sidebar" href="3_columns_sidebar.html">3 Columns Sidebar</a></li>
-		<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a title="List View 01" href="list-view-01/page/1/index.html">List View 01</a></li>
-		<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-83"><a title="List View 02" href="list-view-02/index.html">List View 02</a></li>
-		<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-255"><a title="Single Post" href="best_ftse.html">Single Post</a></li>
-	</ul>
-</li>
-	<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a title="Contact" href="contact.html">Contact</a></li>
-	<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a title="Faq’s" href="faq.html">Faq’s</a></li>
-	<li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a title="404" href="https://jan.coderdemo.com/newwp/bullion/?p=1234abcd">404</a></li>
-</ul>
-</li>
-  
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="menu-right-content">
-                    	                        <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div>
-                                                                        <div class="clients-box">
-                            <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-6.png" alt="Awesome Image"></div>
-                            <a href="contact.html">Client Portal<i class="flaticon-right-down"></i></a>
-                        </div>
-                                                                        <div class="btn-box"><a href="our_accounts.html" class="theme-btn btn-one"><span>Open an A/c</span></a></div>
-                                            </div>
+          <div class="outer-container">
+            <div class="outer-box">
+              <div class="menu-area">
+                <div class="logo-box">
+                  <figure class="logo"><a href="index.html" title="Bullion"><img
+                        src="wp-content/uploads/2023/03/logo.png" alt="logo" /></a></figure>
                 </div>
+                <!--Mobile Navigation Toggler-->
+                <div class="mobile-nav-toggler">
+                  <i class="icon-bar"></i>
+                  <i class="icon-bar"></i>
+                  <i class="icon-bar"></i>
+                </div>
+                <nav class="main-menu navbar-expand-md navbar-light">
+                  <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                    <ul class="navigation clearfix">
+                      <li id="menu-item-60"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-60 dropdown">
+                        <a title="Home" href="index.html" data-toggle="dropdown1" class="hvr-underline-from-left1"
+                          aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Home</a>
+                        <ul role="menu" class="main-dropdown">
+                          <li id="menu-item-63"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-63">
+                            <a title="Home One" href="index.html">Home One</a></li>
+                          <li id="menu-item-62"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
+                              title="Home Two" href="home_two.html">Home Two</a></li>
+                          <li id="menu-item-61"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a
+                              title="Home Three" href="home_three.html">Home Three</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-64"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64 dropdown">
+                        <a title="Markets" href="markets.html" data-toggle="dropdown1" class="hvr-underline-from-left1"
+                          aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Markets</a>
+                        <ul role="menu" class="main-dropdown">
+                          <li id="menu-item-65"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a
+                              title="Markets" href="markets.html">Markets</a></li>
+                          <li id="menu-item-66"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a
+                              title="Details Page" href="markets_details_page.html">Details Page</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-67"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-67 dropdown">
+                        <a title="Trading" href="standards_ac.html#" data-toggle="dropdown1"
+                          class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                          data-options="easing: easeOutQuart">Trading</a>
+                        <ul role="menu" class="main-dropdown">
+                          <li id="menu-item-68"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a
+                              title="Platform" href="platform.html">Platform</a></li>
+                          <li id="menu-item-69"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a
+                              title="Our Accounts" href="our_accounts.html">Our Accounts</a></li>
+                          <li id="menu-item-860"
+                            class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-860"><a
+                              title="Standard Account" href="standard_ac.html">Standard Account</a></li>
+                          <li id="menu-item-859"
+                            class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-859"><a
+                              title="Commission Account" href="commission_ac.html">Commission Account</a></li>
+                          <li id="menu-item-858"
+                            class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-858"><a
+                              title="STP Pro Account" href="stp_pro_ac.html">STP Pro Account</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-70"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70 dropdown">
+                        <a title="Education" href="education.html" data-toggle="dropdown1"
+                          class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                          data-options="easing: easeOutQuart">Education</a>
+                        <ul role="menu" class="main-dropdown">
+                          <li id="menu-item-71"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a
+                              title="Education" href="education.html">Education</a></li>
+                          <li id="menu-item-1105"
+                            class="menu-item menu-item-type-post_type menu-item-object-education menu-item-1105"><a
+                              title="Detail Page" href="what_is_forex_trading.html">Detail Page</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-72"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72 dropdown">
+                        <a title="About" href="company.html" data-toggle="dropdown1" class="hvr-underline-from-left1"
+                          aria-expanded="false" data-scroll data-options="easing: easeOutQuart">About</a>
+                        <ul role="menu" class="main-dropdown">
+                          <li id="menu-item-73"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a
+                              title="Company" href="company.html">Company</a></li>
+                          <li id="menu-item-79"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a
+                              title="History" href="history.html">History</a></li>
+                          <li id="menu-item-914"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-914 dropdown">
+                            <a title="Team" href="standards_ac.html#">Team</a>
+                            <ul role="menu" class="main-dropdown">
+                              <li id="menu-item-74"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a
+                                  title="Team" href="team.html">Team</a></li>
+                              <li id="menu-item-1078"
+                                class="menu-item menu-item-type-post_type menu-item-object-team menu-item-1078"><a
+                                  title="Team Details" href="joy_root.html">Team Details</a></li>
+                            </ul>
+                          </li>
+                          <li id="menu-item-78"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-78 dropdown">
+                            <a title="Blog" href="standards_ac.html#">Blog</a>
+                            <ul role="menu" class="main-dropdown">
+                              <li id="menu-item-80"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a
+                                  title="3 Columns" href="3-columns/page/1/index.html">3 Columns</a></li>
+                              <li id="menu-item-81"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a
+                                  title="3 Columns Sidebar" href="3_columns_sidebar.html">3 Columns Sidebar</a></li>
+                              <li id="menu-item-82"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a
+                                  title="List View 01" href="list-view-01/page/1/index.html">List View 01</a></li>
+                              <li id="menu-item-83"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-83">
+                                <a title="List View 02" href="list-view-02/index.html">List View 02</a></li>
+                              <li id="menu-item-255"
+                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-255"><a
+                                  title="Single Post" href="best_ftse.html">Single Post</a></li>
+                            </ul>
+                          </li>
+                          <li id="menu-item-75"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a
+                              title="Contact" href="contact.html">Contact</a></li>
+                          <li id="menu-item-76"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a
+                              title="Faq’s" href="faq.html">Faq’s</a></li>
+                          <li id="menu-item-77"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a title="404"
+                              href="https://jan.coderdemo.com/newwp/bullion/?p=1234abcd">404</a></li>
+                        </ul>
+                      </li>
+
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="menu-right-content">
+                <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div>
+                <div class="clients-box">
+                  <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-6.png"
+                      alt="Awesome Image"></div>
+                  <a href="contact.html">Client Portal<i class="flaticon-right-down"></i></a>
+                </div>
+                <div class="btn-box"><a href="our_accounts.html" class="theme-btn btn-one"><span>Open an A/c</span></a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
 
         <!--sticky Header-->
         <div class="sticky-header">
-            <div class="outer-container">
-                <div class="outer-box">
-                    <div class="menu-area">
-                        <div class="logo-box">
-                            <figure class="logo"><a href="index.html" title="Bullion"><img src="wp-content/uploads/2023/03/logo.png" alt="logo"  /></a></figure>
-                        </div>
-                        <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav>
-                    </div>
-                    <div class="menu-right-content">
-                                                <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div>
-                                                                        <div class="clients-box">
-                            <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-6.png" alt="Awesome Image"></div>
-                            <a href="contact.html">Client Portal<i class="flaticon-right-down"></i></a>
-                        </div>
-                                                                        <div class="btn-box"><a href="our_accounts.html" class="theme-btn btn-one"><span>Open an A/c</span></a></div>
-                                            </div>
+          <div class="outer-container">
+            <div class="outer-box">
+              <div class="menu-area">
+                <div class="logo-box">
+                  <figure class="logo"><a href="index.html" title="Bullion"><img
+                        src="wp-content/uploads/2023/03/logo.png" alt="logo" /></a></figure>
                 </div>
+                <nav class="main-menu clearfix">
+                  <!--Keep This Empty / Menu will come through Javascript-->
+                </nav>
+              </div>
+              <div class="menu-right-content">
+                <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div>
+                <div class="clients-box">
+                  <div class="icon-box"><img src="wp-content/themes/bullion/assets/images/icons/icon-6.png"
+                      alt="Awesome Image"></div>
+                  <a href="contact.html">Client Portal<i class="flaticon-right-down"></i></a>
+                </div>
+                <div class="btn-box"><a href="our_accounts.html" class="theme-btn btn-one"><span>Open an A/c</span></a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </header>
-    <!-- main-header end -->
+      </header>
+      <!-- main-header end -->
 
-    <!-- Mobile Menu  -->
-    <div class="mobile-menu">
+      <!-- Mobile Menu  -->
+      <div class="mobile-menu">
         <div class="menu-backdrop"></div>
         <div class="close-btn"><i class="fas fa-times"></i></div>
-        
+
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html" title="Bullion"><img src="wp-content/uploads/2023/03/logo-2.png" alt="logo"  /></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-                        <div class="contact-info">
-                <h4>Contact Info</h4>                <ul>
-                    <li>Chicago 12, Melborne City, USA</li>                    <li><a href="tel:+88-0168-264-8101">+88-0168-264-8101</a></li>                    <li><a href="mailto:info@example.com">info@example.com</a></li>                </ul>
-            </div>
-                        <div class="social-links">
-                <ul class="clearfix">
-                                            <li><a href="https://www.facebook.com" ><span class="fab fa-facebook-f"></span></a></li>
-                                            <li><a href="https://www.instagram.com" ><span class="fab fa-instagram"></span></a></li>
-                                            <li><a href="https://www.pinterest.com" ><span class="fab fa-pinterest"></span></a></li>
-                                            <li><a href="https://www.twitter.com" ><span class="fab fa-twitter"></span></a></li>
-                                            <li><a href="https://www.youtube.com" ><span class="fab fa-youtube-square"></span></a></li>
-                                    </ul>
-            </div>
-                                </nav>
-    </div><!-- End Mobile Menu -->
+          <div class="nav-logo"><a href="index.html" title="Bullion"><img src="wp-content/uploads/2023/03/logo-2.png"
+                alt="logo" /></a></div>
+          <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+          <div class="contact-info">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>Chicago 12, Melborne City, USA</li>
+              <li><a href="tel:+88-0168-264-8101">+88-0168-264-8101</a></li>
+              <li><a href="mailto:info@example.com">info@example.com</a></li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul class="clearfix">
+              <li><a href="https://www.facebook.com"><span class="fab fa-facebook-f"></span></a></li>
+              <li><a href="https://www.instagram.com"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="https://www.pinterest.com"><span class="fab fa-pinterest"></span></a></li>
+              <li><a href="https://www.twitter.com"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="https://www.youtube.com"><span class="fab fa-youtube-square"></span></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div><!-- End Mobile Menu -->
 
 
 
-	<!-- page-title -->
-<section class="page-title centred">
-    <div class="bg-layer" style="background-image: url('wp-content/uploads/2023/03/page-title.jpg');"></div>
-    <div class="line-box">
-        <div class="line-1"></div>
-        <div class="line-2"></div>
-    </div>
-    <div class="auto-container">
-        <div class="content-box">
+      <!-- page-title -->
+      <section class="page-title centred">
+        <div class="bg-layer" style="background-image: url('wp-content/uploads/2023/03/page-title.jpg');"></div>
+        <div class="line-box">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+        </div>
+        <div class="auto-container">
+          <div class="content-box">
             <h1>Standards a/c</h1>
             <p>Deaching of the great explorer of the truth the builder</p>
             <ul class="bread-crumb clearfix">
-                <li class="breadcrumb-item"><a href="index.html">Home &nbsp;</a></li><li class="breadcrumb-item">Standards a/c</li>            </ul>
+              <li class="breadcrumb-item"><a href="index.html">Home &nbsp;</a></li>
+              <li class="breadcrumb-item">Standards a/c</li>
+            </ul>
+          </div>
         </div>
-    </div>
-</section>
-<!-- page-title end -->
+      </section>
+      <!-- page-title end -->
 
-<!--
+      <!--
 =====================================================
     Service Details
 =====================================================
 -->
 
-<!-- account-details -->
-<section class="account-details">
-    <div class="auto-container">
-        <div class="row clearfix">            
+      <!-- account-details -->
+      <section class="account-details">
+        <div class="auto-container">
+          <div class="row clearfix">
 
-            			<div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-            	<div class="account-sidebar">
-                    <div id="nav_menu-7" class="trading-widget sidebar-widget widget_nav_menu"><div class="widget-title"><h3>Account Types</h3></div><div class="menu-trading-sidebar-menu-container"><ul id="menu-trading-sidebar-menu" class="menu"><li id="menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-863"><a href="standard_ac.html">Standard Account</a></li>
-<li id="menu-item-862" class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-862"><a href="commission_ac.html">Commission Account</a></li>
-<li id="menu-item-861" class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-861"><a href="stp_pro_ac.html">STP Pro Account</a></li>
-</ul></div></div><div id="bullion_need_assistance_two-2" class="trading-widget sidebar-widget widget_bullion_need_assistance_two">        <div class="contact-widget">
-        	<div class="widget-title"><h3>Need Assistance</h3></div>            <div class="widget-content">
-                <div class="text-box"><p>Contact us for further information about standard a/c.</p></div>                <ul class="info-list clearfix">
-                                        <li>
-                        <div class="icon"><img src="wp-content/themes/bullion/assets/images/icons/icon-62.png" alt="Awesome Image"></div>
-                        <p><a href="tel:+1-222-56-78-90">+1-222-56-78-90</a></p>
-                    </li>
-                                                            <li>
-                        <div class="icon"><img src="wp-content/themes/bullion/assets/images/icons/icon-63.png" alt="Awesome Image"></div>
-                        <p><a href="mailto:info@example.com">info@example.com</a></p>
-                    </li>
-                                    </ul>
-                <div class="assistance-box">
-	                                    <figure class="assistance-thumb"><img src="wp-content/uploads/2023/03/assistance-1.jpg" alt="Awesome Image"></figure>
-                                        
-                                        <div class="link-box"><a href="contact.html"><span>Live Chat With <br />Expert</span></a></div>
-                	                </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+              <div class="account-sidebar">
+                <div id="nav_menu-7" class="trading-widget sidebar-widget widget_nav_menu">
+                  <div class="widget-title">
+                    <h3>Account Types</h3>
+                  </div>
+                  <div class="menu-trading-sidebar-menu-container">
+                    <ul id="menu-trading-sidebar-menu" class="menu">
+                      <li id="menu-item-863"
+                        class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-863"><a
+                          href="standard_ac.html">Standard Account</a></li>
+                      <li id="menu-item-862"
+                        class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-862"><a
+                          href="commission_ac.html">Commission Account</a></li>
+                      <li id="menu-item-861"
+                        class="menu-item menu-item-type-post_type menu-item-object-tradings menu-item-861"><a
+                          href="stp_pro_ac.html">STP Pro Account</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="bullion_need_assistance_two-2"
+                  class="trading-widget sidebar-widget widget_bullion_need_assistance_two">
+                  <div class="contact-widget">
+                    <div class="widget-title">
+                      <h3>Need Assistance</h3>
+                    </div>
+                    <div class="widget-content">
+                      <div class="text-box">
+                        <p>Contact us for further information about standard a/c.</p>
+                      </div>
+                      <ul class="info-list clearfix">
+                        <li>
+                          <div class="icon"><img src="wp-content/themes/bullion/assets/images/icons/icon-62.png"
+                              alt="Awesome Image"></div>
+                          <p><a href="tel:+1-222-56-78-90">+1-222-56-78-90</a></p>
+                        </li>
+                        <li>
+                          <div class="icon"><img src="wp-content/themes/bullion/assets/images/icons/icon-63.png"
+                              alt="Awesome Image"></div>
+                          <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        </li>
+                      </ul>
+                      <div class="assistance-box">
+                        <figure class="assistance-thumb"><img src="wp-content/uploads/2023/03/assistance-1.jpg"
+                            alt="Awesome Image"></figure>
+
+                        <div class="link-box"><a href="contact.html"><span>Live Chat With <br />Expert</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div id="bullion_download_service_brochure-2"
+                  class="trading-widget sidebar-widget widget_bullion_download_service_brochure">
+                  <div class="download-widget">
+                    <div class="widget-content">
+                      <figure class="image-box"><img src="wp-content/uploads/2023/03/download-1.jpg"
+                          alt="Awesome Image"></figure>
+                      <div class="content-box">
+                        <h4>Download <br />Service Brochure</h4>
+                        <h6>65 KB.pdf</h6>
+                        <a href="contact.html" class="theme-btn"><span>Download</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
-        </div>      	 
-            
-        </div><div id="bullion_download_service_brochure-2" class="trading-widget sidebar-widget widget_bullion_download_service_brochure">        
-        <div class="download-widget">
-            <div class="widget-content">
-                                <figure class="image-box"><img src="wp-content/uploads/2023/03/download-1.jpg" alt="Awesome Image"></figure>
-                                <div class="content-box">
-                    <h4>Download <br />Service Brochure</h4>
-                    <h6>65 KB.pdf</h6>
-                                        <a href="contact.html" class="theme-btn"><span>Download</span></a>
-                	                </div>
-            </div>
-        </div>     	 
-            
-        </div>                </div>
-            </div>
-			            
+
 
             <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-                <div class="account-details-content">
-                	<div class="text-box">
-<p>Idea of denouncings master-builder of human the moment blinded by desired that they cannot foresee that pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their which is the same as saying through shrinking foresee the pain and trouble idea of denouncings master-builder of human happiness no one rejects dislikes or avoids.</p>
-</div>
-<div class="content-one">
-<div class="row clearfix">
-<div class="col-lg-6 col-md-6 col-sm-12 image-column">
-<figure class="image-box"><img decoding="async" src="wp-content/uploads/2023/03/account-4.jpg" alt="" width="370" height="433" class="alignnone size-full wp-image-834" srcset="wp-content/uploads/2023/03/account-4.jpg 370w, wp-content/uploads/2023/03/account-4-256x300.jpg 256w" sizes="(max-width: 370px) 100vw, 370px" /></figure>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-12 content-column">
-<ul class="accordion-box">
-<li class="accordion block active-block">
-<div class="acc-btn active">
-<h3>Benefits</h3>
-<p>Equal blame belongs to those who fail through weakness same duty.</p>
-</div>
-<div
- class="acc-content current"></p>
-<ul class="list-item clearfix">
-<li>No commission</li>
-<li>No minimum deposit</li>
-<li>Leverage up to 1:3000</li>
-</ul>
-</div>
-</li>
-<li class="accordion block">
-<div class="acc-btn">
-<h3>Currencies</h3>
-<p>Business frequently occur that pleasure have to be repudiated.</p>
-</div>
-<div class="acc-content">
-<ul class="list-item clearfix">
-<li>No commission</li>
-<li>No minimum deposit</li>
-<li>Leverage up to 1:3000</li>
-</ul>
-</div>
-</li>
-<li class="accordion block">
-<div class="acc-btn">
-<h3>Other Offers</h3>
-<p>Holds in these matter principle selection he rejects pleasures secure.</p>
-</div>
-<div class="acc-content">
-<ul class="list-item clearfix">
-<li>No commission</li>
-<li>No minimum deposit</li>
-<li>Leverage up to 1:3000</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="content-two">
-<div class="text-box">
-<h3>Standard Account Info</h3>
-<p>Bound to ensue and equal blame belongs to those who fail in their,</p>
-</div>
-<div class="row clearfix">
-<div class="col-lg-6 col-md-6 col-sm-12 list-column">
-<ul class="list-item clearfix">
-<li>
-<div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></div>
-<p>Initial Deposit <span>$100</span></li>
-<li>
-<div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></div>
-<p>Order Volume <span>0.01 &#8211; 500 lots</span></li>
-<li>
-<div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></div>
-<p>24/7 Support<span>Yes</span></li>
-</ul>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-12 list-column">
-<ul class="list-item clearfix">
-<li>
-<div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></div>
-<p>Leverage <span>Upto 1:3000</span></li>
-<li>
-<div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></div>
-<p>Spread<span>Fixed from 3 pis</span></li>
-<li>
-<div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></div>
-<p>Multi Language CC<span>Yes</span></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="content-three">
-<div class="text-box">
-<h3>Reason for Choose</h3>
-<p>Bound to ensue; and equal blame belongs to those who fail in their,</p>
-</div>
-<div class="row clearfix">
-<div class="col-lg-6 col-md-6 col-sm-12 single-column">
-<div class="single-item">
-<div class="icon-box">
-<div class="shape"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65" class="alignnone size-full wp-image-835" /></div>
-<div class="icon"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/icon-64.png" alt="" width="22" height="30" class="alignnone size-full wp-image-836" /></div>
-</div>
-<div class="title-text">
-<h3>Friendly &amp; Expert<span>01</span></h3>
-</div>
-<p>Beatae vitae dicta sun explicabo enim ipsam voluptatem volupta.</p>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-12 single-column">
-<div class="single-item">
-<div class="icon-box">
-<div class="shape"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65" class="alignnone size-full wp-image-835" /></div>
-<div class="icon"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/icon-65.png" alt="" width="30" height="30" class="alignnone size-full wp-image-837" /></div>
-</div>
-<div class="title-text">
-<h3>24/7 Support<span>02</span></h3>
-</div>
-<p>Dolore magnam aliquam quaer autem enim ad minima veniam.</p>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-12 single-column">
-<div class="single-item">
-<div class="icon-box">
-<div class="shape"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65" class="alignnone size-full wp-image-835" /></div>
-<div class="icon"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/icon-66.png" alt="" width="40" height="18" class="alignnone size-full wp-image-838" /></div>
-</div>
-<div class="title-text">
-<h3>Demo account<span>03</span></h3>
-</div>
-<p>Omnis iste natus error sit volup minima accusantium doloremque.</p>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-12 single-column">
-<div class="single-item">
-<div class="icon-box">
-<div class="shape"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65" class="alignnone size-full wp-image-835" /></div>
-<div class="icon"><img decoding="async" loading="lazy" src="wp-content/uploads/2023/03/icon-67.png" alt="" width="32" height="31" class="alignnone size-full wp-image-839" /></div>
-</div>
-<div class="title-text">
-<h3>Award Winner<span>04</span></h3>
-</div>
-<p>Beguiled demoralized charms nonsed pleasure of the moment.</p>
-</div>
-</div>
-</div>
-</div>
+              <div class="account-details-content">
+                <div class="text-box">
+                  <p>Idea of denouncings master-builder of human the moment blinded by desired that they cannot foresee
+                    that pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their
+                    which is the same as saying through shrinking foresee the pain and trouble idea of denouncings
+                    master-builder of human happiness no one rejects dislikes or avoids.</p>
                 </div>
-            </div>            
+                <div class="content-one">
+                  <div class="row clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                      <figure class="image-box"><img decoding="async" src="wp-content/uploads/2023/03/account-4.jpg"
+                          alt="" width="370" height="433" class="alignnone size-full wp-image-834"
+                          srcset="wp-content/uploads/2023/03/account-4.jpg 370w, wp-content/uploads/2023/03/account-4-256x300.jpg 256w"
+                          sizes="(max-width: 370px) 100vw, 370px" /></figure>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                      <ul class="accordion-box">
+                        <li class="accordion block active-block">
+                          <div class="acc-btn active">
+                            <h3>Benefits</h3>
+                            <p>Equal blame belongs to those who fail through weakness same duty.</p>
+                          </div>
+                          <div class="acc-content current">
+                            </p>
+                            <ul class="list-item clearfix">
+                              <li>No commission</li>
+                              <li>No minimum deposit</li>
+                              <li>Leverage up to 1:3000</li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="accordion block">
+                          <div class="acc-btn">
+                            <h3>Currencies</h3>
+                            <p>Business frequently occur that pleasure have to be repudiated.</p>
+                          </div>
+                          <div class="acc-content">
+                            <ul class="list-item clearfix">
+                              <li>No commission</li>
+                              <li>No minimum deposit</li>
+                              <li>Leverage up to 1:3000</li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="accordion block">
+                          <div class="acc-btn">
+                            <h3>Other Offers</h3>
+                            <p>Holds in these matter principle selection he rejects pleasures secure.</p>
+                          </div>
+                          <div class="acc-content">
+                            <ul class="list-item clearfix">
+                              <li>No commission</li>
+                              <li>No minimum deposit</li>
+                              <li>Leverage up to 1:3000</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="content-two">
+                  <div class="text-box">
+                    <h3>Standard Account Info</h3>
+                    <p>Bound to ensue and equal blame belongs to those who fail in their,</p>
+                  </div>
+                  <div class="row clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-12 list-column">
+                      <ul class="list-item clearfix">
+                        <li>
+                          <div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i
+                              class="fa-solid fa-chevron-right"></i></div>
+                          <p>Initial Deposit <span>$100</span>
+                        </li>
+                        <li>
+                          <div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i
+                              class="fa-solid fa-chevron-right"></i></div>
+                          <p>Order Volume <span>0.01 &#8211; 500 lots</span>
+                        </li>
+                        <li>
+                          <div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i
+                              class="fa-solid fa-chevron-right"></i></div>
+                          <p>24/7 Support<span>Yes</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 list-column">
+                      <ul class="list-item clearfix">
+                        <li>
+                          <div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i
+                              class="fa-solid fa-chevron-right"></i></div>
+                          <p>Leverage <span>Upto 1:3000</span>
+                        </li>
+                        <li>
+                          <div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i
+                              class="fa-solid fa-chevron-right"></i></div>
+                          <p>Spread<span>Fixed from 3 pis</span>
+                        </li>
+                        <li>
+                          <div class="icon-box"><i class="fa-solid fa-chevron-right"></i><i
+                              class="fa-solid fa-chevron-right"></i></div>
+                          <p>Multi Language CC<span>Yes</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="content-three">
+                  <div class="text-box">
+                    <h3>Reason for Choose</h3>
+                    <p>Bound to ensue; and equal blame belongs to those who fail in their,</p>
+                  </div>
+                  <div class="row clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                      <div class="single-item">
+                        <div class="icon-box">
+                          <div class="shape"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65"
+                              class="alignnone size-full wp-image-835" /></div>
+                          <div class="icon"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/icon-64.png" alt="" width="22" height="30"
+                              class="alignnone size-full wp-image-836" /></div>
+                        </div>
+                        <div class="title-text">
+                          <h3>Friendly &amp; Expert<span>01</span></h3>
+                        </div>
+                        <p>Beatae vitae dicta sun explicabo enim ipsam voluptatem volupta.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                      <div class="single-item">
+                        <div class="icon-box">
+                          <div class="shape"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65"
+                              class="alignnone size-full wp-image-835" /></div>
+                          <div class="icon"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/icon-65.png" alt="" width="30" height="30"
+                              class="alignnone size-full wp-image-837" /></div>
+                        </div>
+                        <div class="title-text">
+                          <h3>24/7 Support<span>02</span></h3>
+                        </div>
+                        <p>Dolore magnam aliquam quaer autem enim ad minima veniam.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                      <div class="single-item">
+                        <div class="icon-box">
+                          <div class="shape"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65"
+                              class="alignnone size-full wp-image-835" /></div>
+                          <div class="icon"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/icon-66.png" alt="" width="40" height="18"
+                              class="alignnone size-full wp-image-838" /></div>
+                        </div>
+                        <div class="title-text">
+                          <h3>Demo account<span>03</span></h3>
+                        </div>
+                        <p>Omnis iste natus error sit volup minima accusantium doloremque.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                      <div class="single-item">
+                        <div class="icon-box">
+                          <div class="shape"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/shape-44.png" alt="" width="62" height="65"
+                              class="alignnone size-full wp-image-835" /></div>
+                          <div class="icon"><img decoding="async" loading="lazy"
+                              src="wp-content/uploads/2023/03/icon-67.png" alt="" width="32" height="31"
+                              class="alignnone size-full wp-image-839" /></div>
+                        </div>
+                        <div class="title-text">
+                          <h3>Award Winner<span>04</span></h3>
+                        </div>
+                        <p>Beguiled demoralized charms nonsed pleasure of the moment.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-                      
 
+
+          </div>
         </div>
-    </div>
-</section>
-<!-- account-details end -->
+      </section>
+      <!-- account-details end -->
 
 
 
 
-	<div class="clearfix"></div>
+      <div class="clearfix"></div>
 
 
 
-	<!-- main-footer -->
-<footer class="main-footer">
+      <!-- main-footer -->
+      <footer class="main-footer">
         <div class="widget-section">
-        <div class="auto-container">
+          <div class="auto-container">
             <div class="row clearfix">
-            	<div class="col-lg-4 col-md-6 col-sm-12 footer-column"><div id="bullion_our_community-2" class="footer-widget widget_bullion_our_community">        <div class="contact-widget">
-            <div class="widget-title"><h3>Our Community</h3></div>            <div class="widget-content">
-                <p>Here you'll find regular market updates, expert tips &amp; stories.</p>                <script>(function() {
-	window.mc4wp = window.mc4wp || {
-		listeners: [],
-		forms: {
-			on: function(evt, cb) {
-				window.mc4wp.listeners.push(
-					{
-						event   : evt,
-						callback: cb
-					}
-				);
-			}
-		}
-	}
-})();
-</script><!-- Mailchimp for WordPress v4.9.4 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-99" method="post" data-id="99" data-name="" ><div class="mc4wp-form-fields"><div class="form-group">
-  <input type="email" name="EMAIL" placeholder="Email address..." required />
-  <button type="submit"><img src="wp-content/uploads/2023/03/icon-27.png" alt="Image"></button>
-</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1690107316" /><input type="hidden" name="_mc4wp_form_id" value="99" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->                <h3>Follow us</h3>
-                                <ul class="social-links clearfix">
-                        
-    		
-						<li><a target="_blank" href="https://www.facebook.com" ><i class="fa-brands fa-facebook-f"></i></a></li>
-            			<li><a target="_blank" href="https://www.instagram.com" ><i class="fa-brands fa-instagram"></i></a></li>
-            			<li><a target="_blank" href="https://www.pinterest.com" ><i class="fa-brands fa-pinterest-square"></i></a></li>
-            			<li><a target="_blank" href="https://www.twitter.com" ><i class="fa-brands fa-twitter-square"></i></a></li>
-            		
-	                </ul>
-                            </div>
-        </div>       	 
-            
-        </div></div><div class="col-lg-4 col-md-6 col-sm-12 footer-column"><div id="nav_menu-2" class="footer-widget widget_nav_menu"><div class="widget-title"><h3>Useful Links</h3></div><div class="menu-useful-links-container"><ul id="menu-useful-links" class="menu"><li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="company.html">About Us</a></li>
-<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="education.html">Education</a></li>
-<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="team.html">Meet Our Team</a></li>
-<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="history.html">History</a></li>
-<li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="our_accounts.html">Our Accounts</a></li>
-<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="markets.html">Markets</a></li>
-<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="platform.html">Platform</a></li>
-<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="faq.html">Faq’s</a></li>
-<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="3-columns/page/1/index.html">3 Columns</a></li>
-<li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="markets_details_page.html">Details Page</a></li>
-<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="list-view-01/page/1/index.html">List View 01</a></li>
-<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="contact.html">Contact</a></li>
-</ul></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 footer-column"><div id="bullion_need_assistance-2" class="footer-widget widget_bullion_need_assistance">        <div class="assistance-widget">
-            <div class="widget-content">
-                <h3>Need assistance?</h3>                <p>Live chat with our service team for information &amp; assistance.</p>                <div class="assistance-box">
-	                                    <figure class="assistance-thumb"><img src="wp-content/uploads/2023/03/assistance-1.jpg" alt="Awesome Image"></figure>
-                                        <h5>Live Chat With</h5>                                        <div class="link-box"><a href="team.html"><span>Expert</span></a></div>
-                	                </div>
-            </div>
-        </div>      	 
-            
-        </div></div>            </div>
-        </div>
-    </div>
-        <div class="footer-bottom">
-        <div class="auto-container">
-            <div class="bottom-inner">
-                                <div class="copyright">
-                    <p>&copy; <span>2023 <a href="standards_ac.html#">Bullion</a>.</span> All Rights Reserved.</p>
+              <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                <div id="bullion_our_community-2" class="footer-widget widget_bullion_our_community">
+                  <div class="contact-widget">
+                    <div class="widget-title">
+                      <h3>Our Community</h3>
+                    </div>
+                    <div class="widget-content">
+                      <p>Here you'll find regular market updates, expert tips &amp; stories.</p>
+                      <script>(function () {
+                          window.mc4wp = window.mc4wp || {
+                            listeners: [],
+                            forms: {
+                              on: function (evt, cb) {
+                                window.mc4wp.listeners.push(
+                                  {
+                                    event: evt,
+                                    callback: cb
+                                  }
+                                );
+                              }
+                            }
+                          }
+                        })();
+                      </script><!-- Mailchimp for WordPress v4.9.4 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+                      <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-99" method="post" data-id="99" data-name="">
+                        <div class="mc4wp-form-fields">
+                          <div class="form-group">
+                            <input type="email" name="EMAIL" placeholder="Email address..." required />
+                            <button type="submit"><img src="wp-content/uploads/2023/03/icon-27.png"
+                                alt="Image"></button>
+                          </div>
+                        </div><label style="display: none !important;">Leave this field empty if you're human: <input
+                            type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
+                            autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp"
+                          value="1690107316" /><input type="hidden" name="_mc4wp_form_id" value="99" /><input
+                          type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+                        <div class="mc4wp-response"></div>
+                      </form><!-- / Mailchimp for WordPress Plugin -->
+                      <h3>Follow us</h3>
+                      <ul class="social-links clearfix">
+
+
+                        <li><a target="_blank" href="https://www.facebook.com"><i
+                              class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com"><i
+                              class="fa-brands fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.pinterest.com"><i
+                              class="fa-brands fa-pinterest-square"></i></a></li>
+                        <li><a target="_blank" href="https://www.twitter.com"><i
+                              class="fa-brands fa-twitter-square"></i></a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+
                 </div>
-                                <ul class="footer-card clearfix">
-                    <li><a href="standards_ac.html#"><i class="flaticon-symbols"></i></a></li>                    <li><a href="standards_ac.html#"><i class="flaticon-tool"></i></a></li>                    <li><a href="standards_ac.html#"><i class="flaticon-money"></i></a></li>                    <li><a href="standards_ac.html#"><i class="flaticon-symbol"></i></a></li>                    <li><a href="standards_ac.html#"><i class="flaticon-symbols-1"></i></a></li>                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                <div id="nav_menu-2" class="footer-widget widget_nav_menu">
+                  <div class="widget-title">
+                    <h3>Useful Links</h3>
+                  </div>
+                  <div class="menu-useful-links-container">
+                    <ul id="menu-useful-links" class="menu">
+                      <li id="menu-item-90"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a
+                          href="company.html">About Us</a></li>
+                      <li id="menu-item-94"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a
+                          href="education.html">Education</a></li>
+                      <li id="menu-item-91"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a
+                          href="team.html">Meet Our Team</a></li>
+                      <li id="menu-item-95"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a
+                          href="history.html">History</a></li>
+                      <li id="menu-item-97"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a
+                          href="our_accounts.html">Our Accounts</a></li>
+                      <li id="menu-item-96"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a
+                          href="markets.html">Markets</a></li>
+                      <li id="menu-item-98"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a
+                          href="platform.html">Platform</a></li>
+                      <li id="menu-item-92"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a
+                          href="faq.html">Faq’s</a></li>
+                      <li id="menu-item-102"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a
+                          href="3-columns/page/1/index.html">3 Columns</a></li>
+                      <li id="menu-item-103"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a
+                          href="markets_details_page.html">Details Page</a></li>
+                      <li id="menu-item-104"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a
+                          href="list-view-01/page/1/index.html">List View 01</a></li>
+                      <li id="menu-item-93"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a
+                          href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                <div id="bullion_need_assistance-2" class="footer-widget widget_bullion_need_assistance">
+                  <div class="assistance-widget">
+                    <div class="widget-content">
+                      <h3>Need assistance?</h3>
+                      <p>Live chat with our service team for information &amp; assistance.</p>
+                      <div class="assistance-box">
+                        <figure class="assistance-thumb"><img src="wp-content/uploads/2023/03/assistance-1.jpg"
+                            alt="Awesome Image"></figure>
+                        <h5>Live Chat With</h5>
+                        <div class="link-box"><a href="team.html"><span>Expert</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <div class="auto-container">
+            <div class="bottom-inner">
+              <div class="copyright">
+                <p>&copy; <span>2023 <a href="standards_ac.html#">Bullion</a>.</span> All Rights Reserved.</p>
+              </div>
+              <ul class="footer-card clearfix">
+                <li><a href="standards_ac.html#"><i class="flaticon-symbols"></i></a></li>
+                <li><a href="standards_ac.html#"><i class="flaticon-tool"></i></a></li>
+                <li><a href="standards_ac.html#"><i class="flaticon-money"></i></a></li>
+                <li><a href="standards_ac.html#"><i class="flaticon-symbol"></i></a></li>
+                <li><a href="standards_ac.html#"><i class="flaticon-symbols-1"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- main-footer end -->
+      <!-- scroll to top -->
+      <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="flaticon-up-arrow"></i>
+      </button>
+
+
     </div>
-</footer>
-<!-- main-footer end -->
-<!-- scroll to top -->
-<button class="scroll-top scroll-to-target" data-target="html">
-    <i class="flaticon-up-arrow"></i>
-</button>
 
-
-</div>
-
-<!--End Page Wrapper-->
+    <!--End Page Wrapper-->
 
 
 
-<script>(function() {function maybePrefixUrlField () {
-  const value = this.value.trim()
-  if (value !== '' && value.indexOf('http') !== 0) {
-    this.value = 'http://' + value
-  }
-}
+    <script>(function () {
+        function maybePrefixUrlField() {
+          const value = this.value.trim()
+          if (value !== '' && value.indexOf('http') !== 0) {
+            this.value = 'http://' + value
+          }
+        }
 
-const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
-for (let j = 0; j < urlFields.length; j++) {
-  urlFields[j].addEventListener('blur', maybePrefixUrlField)
-}
-})();</script><script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/swv/js/index.js%3Fver=5.7.6' id='swv-js'></script>
-<script type='text/javascript' id='contact-form-7-js-extra'>
-/* <![CDATA[ */
-var wpcf7 = {"api":{"root":"https:\/\/jan.coderdemo.com\/newwp\/bullion\/wp-json\/","namespace":"contact-form-7\/v1"}};
+        const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+        for (let j = 0; j < urlFields.length; j++) {
+          urlFields[j].addEventListener('blur', maybePrefixUrlField)
+        }
+      })();</script>
+    <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/swv/js/index.js%3Fver=5.7.6'
+      id='swv-js'></script>
+    <script type='text/javascript' id='contact-form-7-js-extra'>
+      /* <![CDATA[ */
+      var wpcf7 = { "api": { "root": "https:\/\/jan.coderdemo.com\/newwp\/bullion\/wp-json\/", "namespace": "contact-form-7\/v1" } };
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index.js%3Fver=5.7.6' id='contact-form-7-js'></script>
-<script type='text/javascript' src='wp-includes/js/jquery/ui/core.min.js%3Fver=1.13.2' id='jquery-ui-core-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/popper.min.js%3Fver=2.1.2' id='popper-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/bootstrap.min.js%3Fver=2.1.2' id='bootstrap-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/owl.js%3Fver=2.1.2' id='owl-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/wow.js%3Fver=2.1.2' id='wow-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/jquery.fancybox.js%3Fver=2.1.2' id='jquery-fancybox-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/appear.js%3Fver=2.1.2' id='appear-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/scrollbar.js%3Fver=2.1.2' id='scrollbar-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/isotope.js%3Fver=2.1.2' id='isotope-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/jquery.nice-select.min.js%3Fver=2.1.2' id='jquery-nice-select-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/language.js%3Fver=2.1.2' id='language-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/jquery-ui.js%3Fver=2.1.2' id='jquery-ui-js'></script>
-<script type='text/javascript' src='wp-content/themes/bullion/assets/js/script.js%3Fver=6.2.2' id='bullion-main-script-js'></script>
-<script type='text/javascript' src='wp-includes/js/comment-reply.min.js%3Fver=6.2.2' id='comment-reply-js'></script>
-<script type='text/javascript' defer src='wp-content/plugins/mailchimp-for-wp/assets/js/forms.js%3Fver=4.9.4' id='mc4wp-forms-api-js'></script>
+    </script>
+    <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index.js%3Fver=5.7.6'
+      id='contact-form-7-js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/ui/core.min.js%3Fver=1.13.2'
+      id='jquery-ui-core-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/popper.min.js%3Fver=2.1.2'
+      id='popper-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/bootstrap.min.js%3Fver=2.1.2'
+      id='bootstrap-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/owl.js%3Fver=2.1.2' id='owl-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/wow.js%3Fver=2.1.2' id='wow-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/jquery.fancybox.js%3Fver=2.1.2'
+      id='jquery-fancybox-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/appear.js%3Fver=2.1.2'
+      id='appear-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/scrollbar.js%3Fver=2.1.2'
+      id='scrollbar-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/isotope.js%3Fver=2.1.2'
+      id='isotope-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/jquery.nice-select.min.js%3Fver=2.1.2'
+      id='jquery-nice-select-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/language.js%3Fver=2.1.2'
+      id='language-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/jquery-ui.js%3Fver=2.1.2'
+      id='jquery-ui-js'></script>
+    <script type='text/javascript' src='wp-content/themes/bullion/assets/js/script.js%3Fver=6.2.2'
+      id='bullion-main-script-js'></script>
+    <script type='text/javascript' src='wp-includes/js/comment-reply.min.js%3Fver=6.2.2' id='comment-reply-js'></script>
+    <script type='text/javascript' defer src='wp-content/plugins/mailchimp-for-wp/assets/js/forms.js%3Fver=4.9.4'
+      id='mc4wp-forms-api-js'></script>
 
-</body>
+  </body>
 
 </html>
-
